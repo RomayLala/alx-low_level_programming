@@ -7,3 +7,4 @@ This function  prints the sign of a number.
 This function computes the absolute value of an integer.
 This function prints the last digit of a number.
 This function  prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+This function  prints the 9 times table, starting with 0.
