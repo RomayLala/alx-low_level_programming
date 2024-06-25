@@ -3,9 +3,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Function prototype */
-int _abs(int);
-
-/* Other function prototypes if needed */
+/* Function prototypes */
+int _putchar(char c);
+int print_last_digit(int);
 
 #endif /* MAIN_H */
