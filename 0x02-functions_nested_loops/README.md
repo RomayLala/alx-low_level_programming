@@ -9,3 +9,4 @@ This function prints the last digit of a number.
 This function  prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 This function  prints the 9 times table, starting with 0.
 This function adds two integers and returns the result.
+This function prints all natural numbers from n to 98, followed by a new line.
