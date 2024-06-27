@@ -1,11 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Included Libraries */
-#include <unistd.h>
-
-/* Function Prototypes */
+/* putchar function prototype */
 int _putchar(char c);
-void print_numbers(void);
+
+/* Function prototype for print_most_numbers */
+void print_most_numbers(void);
 
 #endif /* MAIN_H */
