@@ -1,4 +1,4 @@
-#include "main.h"
+#include "6-main.h"
 
 /**
  * print_line - Draws a straight line in the terminal
