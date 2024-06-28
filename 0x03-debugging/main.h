@@ -1,10 +1,11 @@
+/* main.h */
+
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Included libraries */
-#include <stdio.h>
+#include <stdio.h>  /* Include necessary standard library for printf function */
 
-/* Function prototypes */
-int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
 
 #endif /* MAIN_H */
