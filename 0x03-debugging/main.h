@@ -1,8 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* Included libraries */
 #include <stdio.h>
 
-void positive_or_negative(int i);
+/* Function prototypes */
+int largest_number(int a, int b, int c);
 
 #endif /* MAIN_H */
