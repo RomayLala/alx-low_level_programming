@@ -1,56 +1,53 @@
-#include "main.h"
-#include <stdio.h>
+#include "9-main.h"
 
 /**
- * print_number - Prints a number followed by a space
- * @n: Number to print
+ * main - prints the numbers from 1 to 100, followed by a new line
+ * But for multiples of three print Fizz instead of the number
+ * and for the multiples of five print Buzz.
+ * For numbers which are multiples of both three and five print FizzBuzz.
+ *
+ * Return: Always 0 (Success)
  */
-void print_number(int n)
-{
-    /* Handling the negative numbers */
-    if (n < 0)
-    {
-        _putchar('-');
-        n = -n;
-    }
-
-    /* Print the number */
-    if (n / 10)
-        print_number(n / 10);
-    _putchar((n % 10) + '0');
-}
-
-/**
- * print_fizzbuzz - Prints numbers from 1 to 100 with FizzBuzz condition
- */
-void print_fizzbuzz(void)
+int main(void)
 {
     int i;
 
     for (i = 1; i <= 100; i++)
     {
         if (i % 3 == 0 && i % 5 == 0)
-            printf("FizzBuzz");
+        {
+            _putchar('F');
+            _putchar('i');
+            _putchar('z');
+            _putchar('z');
+            _putchar('B');
+            _putchar('u');
+            _putchar('z');
+            _putchar('z');
+        }
         else if (i % 3 == 0)
-            printf("Fizz");
+        {
+            _putchar('F');
+            _putchar('i');
+            _putchar('z');
+            _putchar('z');
+        }
         else if (i % 5 == 0)
-            printf("Buzz");
+        {
+            _putchar('B');
+            _putchar('u');
+            _putchar('z');
+            _putchar('z');
+        }
         else
-            print_number(i);
-
-        if (i < 100)
+        {
+            if (i >= 10)
+                _putchar((i / 10) + '0');
+            _putchar((i % 10) + '0');
+        }
+        if (i != 100)
             _putchar(' ');
     }
     _putchar('\n');
-}
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    print_fizzbuzz();
     return (0);
 }
