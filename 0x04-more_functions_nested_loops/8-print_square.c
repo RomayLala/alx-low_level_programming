@@ -1,4 +1,4 @@
-#include "main.h"
+#include "8-main.h"
 
 /**
  * print_square - prints a square of '#' characters
