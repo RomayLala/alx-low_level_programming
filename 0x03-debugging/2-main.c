@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "2-main.h"
 
 /**
 * main - prints the largest of 3 integers
