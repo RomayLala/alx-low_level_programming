@@ -6,3 +6,4 @@ This function  prints a string, in reverse, followed by a new line.
 This function  reverses a string.
 This function prints every other character of a string, starting with the first character, followed by a new line.
 This function  prints half of a string, followed by a new line.
+This function prints n elements of an array of integers, followed by a new line.
