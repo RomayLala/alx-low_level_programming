@@ -3,3 +3,4 @@ This function concatenates two strings.The _strncat function is similar to the _
 This function  copies a string.
 This function compares two strings.
 This function reverses the content of an array of integers.
+This function  changes all lowercase letters of a string to uppercase.
