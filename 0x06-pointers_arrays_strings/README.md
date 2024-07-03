@@ -8,3 +8,4 @@ This function  capitalizes all words of a string.
 This function encodes a string into 1337.
 This function  encodes a string using rot13.
 This function  prints an integer.
+This function adds one line to a given code, so that the program prints a[2] = 98, followed by a new line.
