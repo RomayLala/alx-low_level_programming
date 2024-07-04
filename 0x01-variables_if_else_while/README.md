@@ -8,3 +8,4 @@ This program  prints all single digit numbers of base 10 starting from 0, follow
 This program prints the lowercase alphabet in reverse, followed by a new line.
 This program prints all the numbers of base 16 in lowercase, followed by a new line.
 This program prints all possible combinations of single-digit numbers separated by ,, followed by a space in ascending order.
+This program prints all possible different combinations of two digits. The digits are separated by `, ` and printed in ascending order. The program only uses the `putchar` function and follows the Betty style guidelines.
