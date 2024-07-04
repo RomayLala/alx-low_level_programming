@@ -10,3 +10,4 @@ This function  prints every minute of the day of Jack Bauer, starting from 00:00
 This function  prints the 9 times table, starting with 0.
 This function adds two integers and returns the result.
 This function prints all natural numbers from n to 98, followed by a new line.
+This program contains a function `print_times_table` that prints the `n` times table, starting with 0.
