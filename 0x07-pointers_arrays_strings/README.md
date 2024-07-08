@@ -5,3 +5,4 @@ This function gets the length of a prefix substring.
 This function searches a string for any of a set of bytes.
 This function  locates a substring.
 This function prints the chessboard.
+This function  prints the sum of the two diagonals of a square matrix of integers.
