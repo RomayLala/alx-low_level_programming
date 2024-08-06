@@ -6,4 +6,5 @@ This function  frees a listint_t list.
 This function frees a listint_t list.
 This function deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 This function returns the nth node of a listint_t linked list.
-This function returns the sum of all the data (n) of a listint_t linked list. 
+This function returns the sum of all the data (n) of a listint_t linked list.
+This function  inserts a new node at a given position. 
