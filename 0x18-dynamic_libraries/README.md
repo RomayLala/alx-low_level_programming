@@ -20,3 +20,4 @@ This function contains a dynamic library `libdynamic.so` that includes the follo
 - _strpbrk
 - _strstr
 
+This program contains a shell script that automates the process of creating a dynamic library (`liball.so`) from all the `.c` source files in the current directory.
